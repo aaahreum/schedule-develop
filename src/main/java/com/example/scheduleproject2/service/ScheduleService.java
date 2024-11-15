@@ -10,6 +10,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * 일정을 생성, 조회, 삭제하는 비즈니스 로직
+ */
 @Service
 @RequiredArgsConstructor
 public class ScheduleService {

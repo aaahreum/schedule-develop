@@ -11,6 +11,9 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.Optional;
 
+/**
+ * 유저를 생성, 조회, 삭제하는 비즈니스 로직
+ */
 @Service
 @RequiredArgsConstructor
 public class UserService {
@@ -28,7 +31,6 @@ public class UserService {
 
         Optional<User> optionalUser = userRepository.findById(id);
 
-        // NPE 방지
         if (optionalUser.isEmpty()) {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "id가 존재하지 않습니다.");
         }
