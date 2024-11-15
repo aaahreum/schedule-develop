@@ -16,7 +16,7 @@
   ```
   {
     "title" : "제목",
-    "content" : "내용",
+    "contents" : "내용",
     "username": "test"
   }  
   ```
@@ -37,7 +37,7 @@
     ```
   {
     "title" : "제목 수정",
-    "content" : "내용 수정",
+    "contents" : "내용 수정",
   }  
   ```
 - 상태 코드 </br> 200:OK, 404:NOT FOUND
