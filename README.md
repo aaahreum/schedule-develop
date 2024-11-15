@@ -3,7 +3,7 @@
 ## 일정
 |기능|Method|URL|request|response|상태코드|
 |---|---|---|---|---|---|
-|일정 등|`POST`|/api/schedules|요청 body|등록 정보|200:OK, 404:NOT FOUND|
+|일정 등|`POST`|/api/schedules|요청 body|등록 정보|201:CREATED, 404:NOT FOUND|
 |전체 일정 조회|`GET`|/api/schedules|요청 param|다건 응답 정보|200:OK, 404:NOT FOUND|
 |선택 일정 조회|`GET`|/api/schedules/{id}|요청 param|단건 응답 정보|200:OK, 404:NOT FOUND|
 |선택 일정 수정|`PUT`|/api/schedules/{id}|요청 body|수정 정보|200:OK, 404:NOT FOUND|
@@ -51,7 +51,7 @@
 ## 유저
 |기능|Method|URL|request|response|상태코드|
 |---|---|---|---|---|---|
-|유저 등록|`POST`|/api/users|요청 body|등록 정보|200:OK, 404:NOT FOUND|
+|유저 등록|`POST`|/api/users|요청 body|등록 정보|201:CREATED, 404:NOT FOUND|
 |전체 유저 조회|`GET`|/api/users|요청 param|다건 응답 정보|200:OK, 404:NOT FOUND|
 |선택 유저 조회|`GET`|/api/users/{id}|요청 param|단건 응답 정보|200:OK, 404:NOT FOUND|
 |선택 유저 삭제|`DELET`|/api/users/{id}|요청 param|삭제 정보|200:OK, 404:NOT FOUND|
