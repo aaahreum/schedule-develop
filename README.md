@@ -21,7 +21,7 @@
   }  
   ```
 - response
-- 상태 코드 </br> 200:OK, 404:NOT FOUND
+- 상태 코드 </br> 201:CREATED, 404:NOT FOUND
 ### 전체 일정 조회
 - GET
 - /api/schedules
@@ -68,7 +68,7 @@
   }  
   ```
 - response
-- 상태 코드 </br> 200:OK, 404:NOT FOUND
+- 상태 코드 </br> 201:CREATED, 404:NOT FOUND
 ### 전체 유저 조회
 - GET
 - /api/users
